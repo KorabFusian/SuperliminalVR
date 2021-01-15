@@ -9,7 +9,7 @@ public class PressurePlate1 : MonoBehaviour
 
     void onTriggerEnter(Collider col)
     {
-        print(door.GetComponent<OpenDoor>().Plate1Pressed);
+        print("yes");
         door.GetComponent<OpenDoor>().Plate1Pressed = true;
     }
 }
